@@ -1,0 +1,22 @@
+## .NET Build Outputs
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+.idea/
+
+## SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+## CSV exports generated at runtime
+*.csv
