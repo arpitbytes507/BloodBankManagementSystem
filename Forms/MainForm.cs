@@ -1003,7 +1003,6 @@ public partial class MainForm : Form
         _dgvRequests.Columns.Add("Status", "Status");
         _dgvRequests.Columns["Status"]!.Width = 100;
         _dgvRequests.Columns.Add("Notes", "Clinical Notes");
-
         _dgvRequests.SelectionChanged += (s, e) =>
         {
             if (_dgvRequests.SelectedRows.Count > 0 && _dgvRequests.SelectedRows[0].Tag is BloodRequest req)

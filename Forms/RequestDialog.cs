@@ -265,7 +265,6 @@ public class RequestDialog : Form
             ShowError(validationError);
             return;
         }
-
         ResultRequest = request;
         DialogResult = DialogResult.OK;
         Close();
